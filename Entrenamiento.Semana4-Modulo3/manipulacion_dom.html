@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 for full Unicode support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile devices -->
+    <title>Local Storage Form</title> <!-- Page title shown on the browser tab -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Links to external CSS file -->
+</head>
+<body>
+    <main>
+        <!-- Form to collect user input -->
+        <form id="userForm">
+            <label for="name">Name</label>
+            <!-- Input for user's name -->
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age</label>
+            <!-- Input for user's age -->
+            <input type="number" id="age" name="age" required>
+
+            <!-- Button to save data to Local Storage -->
+            <button type="button" id="saveButton">Save Data</button>
+
+            <!-- Button to clear Local Storage -->
+            <button type="button" id="clearButton">Clear Data</button>
+        </form>
+
+        <!-- Area to display the saved message -->
+        <div id="output"></div>
+
+        <!-- Shows number of interactions in the current session -->
+        <p id="interactionCounter">Session Interactions: 0</p>
+    </main>
+
+    <!-- Links the JavaScript file -->
+    <script src="./script.js"></script>
+</body>
+</html>

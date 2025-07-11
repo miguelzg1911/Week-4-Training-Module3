@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to left, #77c77a, #8ace3c);
+    margin: 0;
+    margin-top: 40px;
+    padding: 20px;
+    color: #333;
+}
+
+main {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-left: 4px solid #4CAF50;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#interactionCounter {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.success-message {
+    background-color: #dff0d8;
+    border-left: 5px solid #3c763d;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    font-weight: bold;
+}
+
+.error-message {
+    background-color: #f2dede;
+    border-left: 5px solid #a94442;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #a94442;
+    font-weight: bold;
+}
